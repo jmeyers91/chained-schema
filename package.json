@@ -1,0 +1,30 @@
+{
+  "name": "chained-schema",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test && npx jest",
+    "build": "rm -rf dist && npx babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "jest": "^23.6.0",
+    "npx": "^10.2.0"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "James Meyers",
+  "license": "MIT",
+  "homepage": "https://github.com/jmeyers91/spry-core#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmeyers91/spry-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmeyers91/spry-core/issues"
+  }
+}
