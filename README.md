@@ -1,6 +1,6 @@
 # chained-schema
 
-Concise JSON Scheme type builders.
+Concise JSON Schema type builders.
 
 ## Install
 
